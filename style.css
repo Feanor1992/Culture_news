@@ -1,0 +1,416 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-width: 1440px;
+    font-family: "roboto", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+    background: #FFFFFF;
+  }
+  
+h1 {
+    font-family: Playfair Display;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 1px;
+    line-height: 47px;
+}
+
+.title-hidden {
+    position: absolute;
+    padding: 0;
+    border: 0;
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.main-header {
+  width: 1440px;
+  height: 218px;
+}
+
+.main-header a{
+  color: #000000;
+}
+
+.logo-header {
+  width: 347px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.header-nav {
+  display: flex;
+  width: 1170px;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 46px;
+}
+
+.header-nav div {
+  flex-grow: 1;
+}
+
+.header-nav div a {
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.headlines {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  left: 0px;
+  top: 218px;
+  background: url("img/Hotel-11.jpg") no-repeat #ffffff;
+  background-size: cover;
+  height: 464px;
+  color: #ffffff;
+}
+
+.new {
+  position: absolute;
+  margin-left: 135px;
+  padding-top: 5px;
+  width: 117px;
+  height: 25px;
+  background-color: #FF7931;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Raleway;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hotel-logo {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  left: 693px;
+  top: 264px;
+
+}
+
+.headline-title {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  width: 752px;
+  height: 80px;
+  margin: auto;
+  margin-top: 133px;
+  margin-left: 344px;
+}
+
+.headline-title a {
+  height: 80px;
+  text-align: left;
+  white-space: nowrap;
+  font-family: Roboto, sans-serif;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hotel-text {
+  position: absolute;
+  width: 456px;
+  height: 64px;
+  left: 492px;
+  top: 570px;
+}
+
+.hotel-text p {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.review-title {
+  width: 83px;
+  height: 20px;
+  margin: auto;
+  margin-top: 44px;
+  margin-left: 678px;
+  margin-bottom: 20px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: #ffffff;
+}
+
+.review-list {
+  display: flex;
+  flex-wrap: no-wrap;
+  box-sizing: content-box;
+  width: 1169px;
+  height: 328px;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: auto;
+  padding: 0px;
+  border: 0px;
+}
+
+.review-item {
+  display: flex;
+  flex-direction: column;
+  width: 371px;
+  margin: auto;
+  margin-top: 11px;
+  padding: 0px;
+  background: #ffffff;
+}
+
+.review-item div:first-child {
+  width: 370px;
+  height: 203px;
+  margin: auto; 
+}
+
+.review-item div:last-child{
+  width: 371px;
+  height: 63px;
+  margin: auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.review-item div a h3 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.review-item div a .orange-title {
+  color: #ff7931;
+}
+
+.reviews {
+  margin-bottom: 65px;
+  position: relative;
+  z-index: 2;
+}
+
+.promo {
+  display: flex;
+  justify-content: center;
+  background-origin: border-box;
+  width: 1440px;
+  height: 556px;
+  margin-top: 65px;
+  background: #F7F7F7;
+  mix-blend-mode: normal;
+}
+
+.promo-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  padding: 0px;
+  width: 707px;
+  height: 707px;
+  border: hidden;
+  border-radius: 50%;
+  background: #ffffff no-repeat;
+  z-index: 1;
+}
+
+.promo-title {
+  display: flex;
+  margin-top: 108px;
+  width: 224px;
+  height: 20px;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.promo-list {
+  width: 368px;
+  height: 360px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.promo-item-line {
+  align-self: center;
+  width: 100px;
+  height: 0px;
+  opacity: 0.4;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transform: rotate(0.1deg);
+}
+.promo-item {
+  align-self: center;
+  width: 370px;
+  height: 104px;
+}
+
+.promo-item h3 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 23px;
+  line-height: 31px;
+  text-align: center;
+  margin: 0px;
+}
+
+.promo-item p {
+  width: 370px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.promo-link {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 170px;
+  height: 47px;
+  background: #FF7931;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.promo-link a{
+  align-self: center;
+  width: 111px;
+  height: 25px;
+}
+
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1440px;
+  height: 295px;
+  background: #575757;
+  margin-top: 36px;
+  position: relative;
+  z-index: 2;
+}
+
+.main-footer a {
+  color: white;
+}
+
+.logo-footer {
+  position: relative;
+  width: 347px;
+  height: 38px;
+  margin: auto;
+  padding-bottom: 32px;
+}
+
+.logo-footer a h1{
+  margin: 0px;
+  /*text-align: center;*/
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 900;
+  /*font-size: 28px;*/
+  line-height: 37px;
+  letter-spacing: 1px;
+}
+
+.footer-nav {
+  display: flex;
+  width: 1170px;
+  justify-content: flex-end;
+  margin: auto;
+  padding-bottom: 46px;
+}
+
+.footer-nav div {
+  flex-grow: 1;
+}
+
+.footer-nav div a {
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2px;
+}
+
+.footer-line {
+  width: 1170px;
+  height: 0px;
+  left: 135px;
+  margin: auto;
+  opacity: 0.4;
+  border: 1px solid #FFFFFF;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  width: 169px;
+  height: 47px;
+  margin: auto;
+  margin-top: 42px;
+}
+
+.social-item {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  width: 47px;
+  height: 47px;
+}
+
+.social-item a {
+  margin: auto;
+  align-self: center;
+}
